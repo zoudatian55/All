@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#f5f5f5"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center_horizontal"
+       android:src="@drawable/add_to_car_button_press"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/good_title"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+    </LinearLayout>
+    <com.example.administrator.all.view.MyGridView
+        android:background="#f5f5f5"
+        android:id="@+id/good_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:numColumns="2">
+    </com.example.administrator.all.view.MyGridView>
+
+</LinearLayout>

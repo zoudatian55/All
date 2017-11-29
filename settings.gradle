@@ -1,0 +1,5 @@
+include ':app', ':SlidingMenu_library', ':ViewPagerIndicator_library', ':banner'
+include ':ViewPagerIndictor_library'
+include ':ViewPagerIndicatorlibrary'
+include ':library'
+include ':PullToRefresh_library'

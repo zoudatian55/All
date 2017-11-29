@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ff0000"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+<LinearLayout
+    android:id="@+id/sweep"
+    android:layout_marginLeft="5dp"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sweep_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="扫一扫"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/search"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="6"
+        android:layout_width="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="match_parent">
+        <include layout="@layout/search_pager"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/message"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="60dp">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/message_w"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:text="信息"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+</LinearLayout>
